@@ -5,10 +5,16 @@ import spacy
 import pickle
 from model import Encoder, Decoder, Seq2Seq
 from attention import Attention
+from firebase_admin import credentials, firestore, initialize_app
+import re
 
 app = Flask(__name__)
-app.config.from_object('config.Config')
 CORS(app, resources={r"/*": {"origins": "*"}})
+
+# Initialize Firestore DB
+cred = credentials.Certificate('trek-ai-firebase-adminsdk-m8l32-db5180792f.json')
+initialize_app(cred)
+db = firestore.client()
 
 spacy_en = spacy.load('en_core_web_sm')
 
@@ -65,12 +71,49 @@ def translate_sentence(sentence, src_vocab, trg_vocab, model, device, max_len=50
     trg_tokens = [response_vocab_itos[i] for i in trg_indices]
     return trg_tokens[1:-1]
 
+def extract_coordinates(text):
+    coordinates = re.findall(r'([+-]?\d+\.\d+)', text)
+    if len(coordinates) >= 2:
+        return f"<{coordinates[0]}:{coordinates[1]}>"
+    return None
+
+def print_destination_ids():
+    destinations_ref = db.collection('destinations')
+    docs = destinations_ref.stream()
+    for doc in docs:
+        print(f'Destination ID: {doc.id}')
+
+def check_destination_ids(tags):
+    des_tags = []
+    destinations_ref = db.collection('destinations')
+    docs = destinations_ref.stream()
+    for doc in docs:
+        for tag in tags:
+            if tag.strip().lower() == doc.id.lower():
+                des_tags.append(doc.id)
+    return des_tags
+
 @app.route('/chatbot', methods=['POST'])
 def chatbot():
     data = request.get_json()
     query = data.get('query')
-    response = translate_sentence(query, query_vocab, response_vocab, model, device)
-    return jsonify({'response': ' '.join(response)})
+    response_tokens = translate_sentence(query, query_vocab, response_vocab, model, device)
+    response_text = ' '.join(response_tokens)
+    
+    # Extract tags from the response text
+    tags = re.findall(r'<(.+?)>', response_text)
+    cleaned_response_text = re.sub(r'<.+?>', '', response_text).strip()
+
+    # Extract coordinates from the response text
+    coordinates = extract_coordinates(cleaned_response_text)
+
+    response = {
+        'response': cleaned_response_text,
+        'tags': check_destination_ids(tags),
+        'coordinates': coordinates  # Include coordinates in the response
+    }
+    return jsonify(response)
 
 if __name__ == '__main__':
+    print_destination_ids()
     app.run(debug=True)
