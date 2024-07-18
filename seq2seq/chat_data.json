@@ -5903,9 +5903,984 @@
             "What makes Bentota Beach a calm destination?"
         ],
         "response": "Bentota Beach offers a calm and serene atmosphere, especially during the quieter months outside the peak tourist season. The natural beauty and tranquil environment make it an ideal destination for those looking to unwind and enjoy the beach."
+    },
+    {
+        "queries": [
+            "I want to see birds",
+            "Where can I go bird-watching?",
+            "Show me places with birds",
+            "I like to go bird-watching",
+            "Bird-watching spots",
+            "Bird-watching locations"
+        ],
+        "response": "<tags:bird>"
+    },
+    {
+        "queries": [
+            "I want to ride jet-skis",
+            "Where can I go jet-skiing?",
+            "Show me places for jet-skiing",
+            "I like to go jet-skiing",
+            "Jet-skiing spots",
+            "Jet-skiing locations"
+        ],
+        "response": "<tags:jet-skis>"
+    },
+    {
+        "queries": [
+            "I want to visit Tamil cultural sites",
+            "Where can I find Tamil culture?",
+            "Show me places with Tamil heritage",
+            "I like Tamil cultural sites",
+            "Tamil cultural spots",
+            "Tamil heritage locations"
+        ],
+        "response": "<tags:tamil>"
+    },
+    {
+        "queries": [
+            "I want to visit Nuwara",
+            "Where can I go in Nuwara?",
+            "Show me places in Nuwara",
+            "I like to visit Nuwara",
+            "Nuwara travel spots",
+            "Nuwara travel locations"
+        ],
+        "response": "<tags:nuwara>"
+    },
+    {
+        "queries": [
+            "I want to see the sea",
+            "Where can I go by the sea?",
+            "Show me places by the sea",
+            "I like to visit the sea",
+            "Sea view spots",
+            "Sea view locations"
+        ],
+        "response": "<tags:sea>"
+    },
+    {
+        "queries": [
+            "I want to visit rural areas",
+            "Where can I go in rural areas?",
+            "Show me rural places",
+            "I like to visit rural areas",
+            "Rural spots",
+            "Rural locations"
+        ],
+        "response": "<tags:rural>"
+    },
+    {
+        "queries": [
+            "I want to see scenic views",
+            "Where can I go for scenic views?",
+            "Show me scenic places",
+            "I like to see scenic views",
+            "Scenic spots",
+            "Scenic locations"
+        ],
+        "response": "<tags:scenic>"
+    },
+    {
+        "queries": [
+            "I want to visit Hindu sites",
+            "Where can I go to see Hindu culture?",
+            "Show me places with Hindu heritage",
+            "I like Hindu cultural sites",
+            "Hindu cultural spots",
+            "Hindu heritage locations"
+        ],
+        "response": "<tags:hindu>"
+    },
+    {
+        "queries": [
+            "I want to visit urban areas",
+            "Where can I go in urban areas?",
+            "Show me urban places",
+            "I like to visit urban areas",
+            "Urban spots",
+            "Urban locations"
+        ],
+        "response": "<tags:urban>"
+    },
+    {
+        "queries": [
+            "I want to go cycling",
+            "Where can I go cycling?",
+            "Show me places for cycling",
+            "I like to go cycling",
+            "Cycling spots",
+            "Cycling locations"
+        ],
+        "response": "<tags:cycling>"
+    },
+    {
+        "queries": [
+            "I want to see natural sites",
+            "Where can I go to see nature?",
+            "Show me natural places",
+            "I like natural sites",
+            "Natural spots",
+            "Natural locations"
+        ],
+        "response": "<tags:natural>"
+    },
+    {
+        "queries": [
+            "I want to go snorkeling",
+            "Where can I go snorkeling?",
+            "Show me places for snorkeling",
+            "I like to go snorkeling",
+            "Snorkeling spots",
+            "Snorkeling locations"
+        ],
+        "response": "<tags:snorkeling>"
+    },
+    {
+        "queries": [
+            "I want to visit ancient sites",
+            "Where can I go to see ancient sites?",
+            "Show me ancient places",
+            "I like ancient sites",
+            "Ancient spots",
+            "Ancient locations"
+        ],
+        "response": "<tags:ancient>"
+    },
+    {
+        "queries": [
+            "I want to see the sunset",
+            "Where can I see the sunset?",
+            "Show me places to watch the sunset",
+            "I like to watch the sunset",
+            "Sunset spots",
+            "Sunset locations"
+        ],
+        "response": "<tags:sun-set>"
+    },
+    {
+        "queries": [
+            "I want to visit the mountains",
+            "Where can I go to see mountains?",
+            "Show me mountain places",
+            "I like mountains",
+            "Mountain spots",
+            "Mountain locations"
+        ],
+        "response": "<tags:mountain>"
+    },
+    {
+        "queries": [
+            "I want to go fishing",
+            "Where can I go fishing?",
+            "Show me places for fishing",
+            "I like to go fishing",
+            "Fishing spots",
+            "Fishing locations"
+        ],
+        "response": "<tags:fishing>"
+    },
+    {
+        "queries": [
+            "I want to see nature",
+            "Where can I go to see nature?",
+            "Show me nature places",
+            "I like natural sites",
+            "Nature spots",
+            "Nature locations"
+        ],
+        "response": "<tags:nature>"
+    },
+    {
+        "queries": [
+            "I want to go swimming",
+            "Where can I go swimming?",
+            "Show me places for swimming",
+            "I like to go swimming",
+            "Swimming spots",
+            "Swimming locations"
+        ],
+        "response": "<tags:swimming>"
+    },
+    {
+        "queries": [
+            "I want to go surfing",
+            "Where can I go surfing?",
+            "Show me places for surfing",
+            "I like to go surfing",
+            "Surfing spots",
+            "Surfing locations"
+        ],
+        "response": "<tags:surfing>"
+    },
+    {
+        "queries": [
+            "I want to see whales",
+            "Where can I go whale-watching?",
+            "Show me places for whale-watching",
+            "I like to go whale-watching",
+            "Whale-watching spots",
+            "Whale-watching locations"
+        ],
+        "response": "<tags:whale-watching>"
+    },
+    {
+        "queries": [
+            "I want to see Sinhala culture",
+            "Where can I go to see Sinhala heritage?",
+            "Show me places with Sinhala culture",
+            "I like Sinhala cultural sites",
+            "Sinhala cultural spots",
+            "Sinhala heritage locations"
+        ],
+        "response": "<tags:sinhala>"
+    },
+    {
+        "queries": [
+            "I want to see bridges",
+            "Where can I go to see bridges?",
+            "Show me places with bridges",
+            "I like to see bridges",
+            "Bridge spots",
+            "Bridge locations"
+        ],
+        "response": "<tags:bridges>"
+    },
+    {
+        "queries": [
+            "I want to visit restaurants",
+            "Where can I find restaurants?",
+            "Show me places with good restaurants",
+            "I like to visit restaurants",
+            "Restaurant spots",
+            "Restaurant locations"
+        ],
+        "response": "<tags:restaurants>"
+    },
+    {
+        "queries": [
+            "I want to see wildlife",
+            "Where can I go to see wildlife?",
+            "Show me places with wildlife",
+            "I like to see wildlife",
+            "Wildlife spots",
+            "Wildlife locations"
+        ],
+        "response": "<tags:wildlife>"
+    },
+    {
+        "queries": [
+            "I want to go camping",
+            "Where can I go camping?",
+            "Show me places for camping",
+            "I like to go camping",
+            "Camping spots",
+            "Camping locations"
+        ],
+        "response": "<tags:camping>"
+    },
+    {
+        "queries": [
+            "I want to try street food",
+            "Where can I find street food?",
+            "Show me places with street food",
+            "I like to try street food",
+            "Street food spots",
+            "Street food locations"
+        ],
+        "response": "<tags:street-food>"
+    },
+    {
+        "queries": [
+            "I want to watch races",
+            "Where can I see races?",
+            "Show me places for racing",
+            "I like to watch races",
+            "Racing spots",
+            "Racing locations"
+        ],
+        "response": "<tags:racing>"
+    },
+    {
+        "queries": [
+            "I want to stay at a resort",
+            "Where can I find a resort?",
+            "Show me resorts",
+            "I like to stay at resorts",
+            "Resort spots",
+            "Resort locations"
+        ],
+        "response": "<tags:resort>"
+    },
+    {
+        "queries": [
+            "I want to go on a safari",
+            "Where can I go on a safari?",
+            "Show me places for a safari",
+            "I like to go on safaris",
+            "Safari spots",
+            "Safari locations"
+        ],
+        "response": "<tags:safari>"
+    },
+    {
+        "queries": [
+            "I want to go hiking",
+            "Where can I go hiking?",
+            "Show me places for hiking",
+            "I like to go hiking",
+            "Hiking spots",
+            "Hiking locations"
+        ],
+        "response": "<tags:hiking>"
+    },
+    {
+        "queries": [
+            "I want to see religious sites",
+            "Where can I go to see religious sites?",
+            "Show me religious places",
+            "I like to visit religious sites",
+            "Religious spots",
+            "Religious locations"
+        ],
+        "response": "<tags:religious>"
+    },
+    {
+        "queries": [
+            "I want to visit a calm place",
+            "Where can I find calm places?",
+            "Show me calm places",
+            "I like calm spots",
+            "Calm spots",
+            "Calm locations"
+        ],
+        "response": "<tags:calm>"
+    },
+    {
+        "queries": [
+            "I want to see leopards",
+            "Where can I see leopards?",
+            "Show me places to see leopards",
+            "I like to see leopards",
+            "Leopard spots",
+            "Leopard locations"
+        ],
+        "response": "<tags:leopards>"
+    },
+    {
+        "queries": [
+            "I want to learn something new",
+            "Where can I go for educational experiences?",
+            "Show me educational places",
+            "I like educational sites",
+            "Educational spots",
+            "Educational locations"
+        ],
+        "response": "<tags:educational>"
+    },
+    {
+        "queries": [
+            "I want to visit a tropical place",
+            "Where can I go to see tropical areas?",
+            "Show me tropical places",
+            "I like tropical areas",
+            "Tropical spots",
+            "Tropical locations"
+        ],
+        "response": "<tags:tropical>"
+    },
+    {
+        "queries": [
+            "I want to see the sunrise",
+            "Where can I see the sunrise?",
+            "Show me places to watch the sunrise",
+            "I like to watch the sunrise",
+            "Sunrise spots",
+            "Sunrise locations"
+        ],
+        "response": "<tags:sun-rise>"
+    },
+    {
+        "queries": [
+            "I want to see sea turtles",
+            "Where can I see sea turtles?",
+            "Show me places to see sea turtles",
+            "I like to see sea turtles",
+            "Sea turtle spots",
+            "Sea turtle locations"
+        ],
+        "response": "<tags:sea-turtles>"
+    },
+    {
+        "queries": [
+            "I want to see Buddhist sites",
+            "Where can I go to see Buddhist sites?",
+            "Show me Buddhist places",
+            "I like to visit Buddhist sites",
+            "Buddhist spots",
+            "Buddhist locations"
+        ],
+        "response": "<tags:buddhism>"
+    },
+    {
+        "queries": [
+            "I want to visit Galle",
+            "Where can I go in Galle?",
+            "Show me places in Galle",
+            "I like to visit Galle",
+            "Galle travel spots",
+            "Galle travel locations"
+        ],
+        "response": "<tags:galle>"
+    },
+    {
+        "queries": [
+            "I want to go diving",
+            "Where can I go diving?",
+            "Show me places for diving",
+            "I like to go diving",
+            "Diving spots",
+            "Diving locations"
+        ],
+        "response": "<tags:diving>"
+    },
+    {
+        "queries": [
+            "I want to ride a waterjet",
+            "Where can I go waterjet riding?",
+            "Show me places for waterjet riding",
+            "I like to ride waterjets",
+            "Waterjet spots",
+            "Waterjet locations"
+        ],
+        "response": "<tags:waterjet>"
+    },
+    {
+        "queries": [
+            "I want to see waterfalls",
+            "Where can I see waterfalls?",
+            "Show me places with waterfalls",
+            "I like to see waterfalls",
+            "Waterfall spots",
+            "Waterfall locations"
+        ],
+        "response": "<tags:waterfall>"
+    },
+    {
+        "queries": [
+            "I want to see Christian sites",
+            "Where can I go to see Christian sites?",
+            "Show me Christian places",
+            "I like to visit Christian sites",
+            "Christian spots",
+            "Christian locations"
+        ],
+        "response": "<tags:christian>"
+    },
+    {
+        "queries": [
+            "I want to visit dry areas",
+            "Where can I go to see dry areas?",
+            "Show me dry places",
+            "I like dry areas",
+            "Dry spots",
+            "Dry locations"
+        ],
+        "response": "<tags:dry>"
+    },
+    {
+        "queries": [
+            "I want to go to pubs",
+            "Where can I find pubs?",
+            "Show me pubs",
+            "I like to visit pubs",
+            "Pub spots",
+            "Pub locations"
+        ],
+        "response": "<tags:pubs>"
+    },
+    {
+        "queries": [
+            "I want to see Malay culture",
+            "Where can I go to see Malay culture?",
+            "Show me places with Malay heritage",
+            "I like Malay cultural sites",
+            "Malay cultural spots",
+            "Malay heritage locations"
+        ],
+        "response": "<tags:malay>"
+    },
+    {
+        "queries": [
+            "I want to go rafting",
+            "Where can I go rafting?",
+            "Show me places for rafting",
+            "I like to go rafting",
+            "Rafting spots",
+            "Rafting locations"
+        ],
+        "response": "<tags:rafting>"
+    },
+    {
+        "queries": [
+            "I want to see Islamic sites",
+            "Where can I go to see Islamic sites?",
+            "Show me Islamic places",
+            "I like to visit Islamic sites",
+            "Islamic spots",
+            "Islamic locations"
+        ],
+        "response": "<tags:islam>"
+    },
+    {
+        "queries": [
+            "I want to go boat riding",
+            "Where can I go boat riding?",
+            "Show me places for boat riding",
+            "I like to go boat riding",
+            "Boat riding spots",
+            "Boat riding locations"
+        ],
+        "response": "<tags:boat-riding>"
+    },
+    {
+        "queries": [
+            "I want to visit Buddhist sites",
+            "Where can I go to see Buddhist sites?",
+            "Show me Buddhist places",
+            "I like to visit Buddhist sites",
+            "Buddhist spots",
+            "Buddhist locations"
+        ],
+        "response": "<tags:buddhist>"
+    },
+    {
+        "queries": [
+            "I want to go to a party",
+            "Where can I find parties?",
+            "Show me party places",
+            "I like to go to parties",
+            "Party spots",
+            "Party locations"
+        ],
+        "response": "<tags:party>"
+    },
+    {
+        "queries": [
+            "I want to see native sites",
+            "Where can I go to see native sites?",
+            "Show me native places",
+            "I like to see native sites",
+            "Native spots",
+            "Native locations"
+        ],
+        "response": "<tags:native>"
+    },
+    {
+        "queries": [
+            "I want to see birds",
+            "Where can I go bird-watching?",
+            "Show me places with birds",
+            "I like to go bird-watching",
+            "Bird-watching spots",
+            "Bird-watching locations"
+        ],
+        "response": "<tags:birds>"
+    },
+    {
+        "queries": [
+            "I want to see ruins",
+            "Where can I go to see ruins?",
+            "Show me places with ruins",
+            "I like to see ruins",
+            "Ruins spots",
+            "Ruins locations"
+        ],
+        "response": "<tags:ruins>"
+    },
+    {
+        "queries": [
+            "I want to go by train",
+            "Where can I go by train?",
+            "Show me places to go by train",
+            "I like to travel by train",
+            "Train travel spots",
+            "Train travel locations"
+        ],
+        "response": "<tags:trains>"
+    },
+    {
+        "queries": [
+            "I want to see Muslim sites",
+            "Where can I go to see Muslim sites?",
+            "Show me Muslim places",
+            "I like to visit Muslim sites",
+            "Muslim spots",
+            "Muslim locations"
+        ],
+        "response": "<tags:muslim>"
+    },
+    {
+        "queries": [
+            "I want to visit the beach",
+            "Where can I go to see the beach?",
+            "Show me beach places",
+            "I like the beach",
+            "Beach spots",
+            "Beach locations"
+        ],
+        "response": "<tags:beach>"
+    },
+    {
+        "queries": [
+            "I want to see elephants",
+            "Where can I see elephants?",
+            "Show me places to see elephants",
+            "I like to see elephants",
+            "Elephant spots",
+            "Elephant locations"
+        ],
+        "response": "<tags:elephants>"
+    },
+    {
+        "queries": [
+            "I want to go off-road",
+            "Where can I go off-road?",
+            "Show me places for off-roading",
+            "I like to go off-road",
+            "Off-road spots",
+            "Off-road locations"
+        ],
+        "response": "<tags:off-road>"
+    },
+    {
+        "queries": [
+            "I want to visit the beaches",
+            "Where can I go to see the beaches?",
+            "Show me beach places",
+            "I like the beaches",
+            "Beach spots",
+            "Beach locations"
+        ],
+        "response": "<tags:beaches>"
+    },
+    {
+        "queries": [
+            "I want to see historical sites",
+            "Where can I go to see historical sites?",
+            "Show me historical places",
+            "I like to visit historical sites",
+            "Historical spots",
+            "Historical locations"
+        ],
+        "response": "<tags:historical>"
+    },
+    {
+        "queries": [
+            "I like to go to a place that is historical, religious, and Buddhist",
+            "Show me places that are historical, religious, and Buddhist",
+            "Where can I visit historical, religious, and Buddhist sites?",
+            "I want to visit a historical, religious, and Buddhist place",
+            "Historical, religious, and Buddhist spots",
+            "Historical, religious, and Buddhist locations"
+        ],
+        "response": "<8onQvGuAicMdvL77ikOi>"
+    },
+    {
+        "queries": [
+            "I like to go camping, hiking, cycling, and visit a waterfall",
+            "Show me places for camping, hiking, cycling, and waterfall",
+            "Where can I go camping, hiking, cycling, and see a waterfall?",
+            "I want to visit a place with camping, hiking, cycling, and a waterfall",
+            "Camping, hiking, cycling, and waterfall spots",
+            "Camping, hiking, cycling, and waterfall locations"
+        ],
+        "response": "<DROlA9J0Fe8tYxMq0pdC>"
+    },
+    {
+        "queries": [
+            "I like nature, waterfalls, mountains, and hiking",
+            "Show me places with nature, waterfalls, mountains, and hiking",
+            "Where can I go for nature, waterfalls, mountains, and hiking?",
+            "I want to visit a place with nature, waterfalls, mountains, and hiking",
+            "Nature, waterfalls, mountains, and hiking spots",
+            "Nature, waterfalls, mountains, and hiking locations"
+        ],
+        "response": "<GcaHY0oBIFeWLWbALWhP>"
+    },
+    {
+        "queries": [
+            "I like places with urban areas, ancient sites, and scenic views",
+            "Show me places that are urban, ancient, and scenic",
+            "Where can I visit urban, ancient, and scenic places?",
+            "I want to visit a place that is urban, ancient, and scenic",
+            "Urban, ancient, and scenic spots",
+            "Urban, ancient, and scenic locations"
+        ],
+        "response": "<HeRima8M7SPZaXowWuat>"
+    },
+    {
+        "queries": [
+            "I like wildlife, safaris, and seeing elephants",
+            "Show me places with wildlife, safaris, and elephants",
+            "Where can I see wildlife, safaris, and elephants?",
+            "I want to visit a place with wildlife, safaris, and elephants",
+            "Wildlife, safaris, and elephant spots",
+            "Wildlife, safaris, and elephant locations"
+        ],
+        "response": "<I8C5khVwpt6LQNcJZGxU>"
+    },
+    {
+        "queries": [
+            "I like beaches, surfing, and snorkeling",
+            "Show me places with beaches, surfing, and snorkeling",
+            "Where can I go to beaches, surf, and snorkel?",
+            "I want to visit a place with beaches, surfing, and snorkeling",
+            "Beaches, surfing, and snorkeling spots",
+            "Beaches, surfing, and snorkeling locations"
+        ],
+        "response": "<K90MxFQsZQPFcAqpwIZx>"
+    },
+    {
+        "queries": [
+            "I like rural, scenic, and camping places",
+            "Show me rural, scenic, and camping places",
+            "Where can I visit rural, scenic, and camping places?",
+            "I want to visit a rural, scenic, and camping place",
+            "Rural, scenic, and camping spots",
+            "Rural, scenic, and camping locations"
+        ],
+        "response": "<KA9RrzitLFIYIvM6j3bX>"
+    },
+    {
+        "queries": [
+            "I like hiking, scenic views, and religious sites",
+            "Show me places with hiking, scenic views, and religious sites",
+            "Where can I hike, see scenic views, and visit religious sites?",
+            "I want to visit a place with hiking, scenic views, and religious sites",
+            "Hiking, scenic views, and religious spots",
+            "Hiking, scenic views, and religious locations"
+        ],
+        "response": "<LwCpIiKMkHKkssgSo8kB>"
+    },
+    {
+        "queries": [
+            "I like wildlife, leopards, and elephants",
+            "Show me places with wildlife, leopards, and elephants",
+            "Where can I see wildlife, leopards, and elephants?",
+            "I want to visit a place with wildlife, leopards, and elephants",
+            "Wildlife, leopards, and elephant spots",
+            "Wildlife, leopards, and elephant locations"
+        ],
+        "response": "<MsCQKtbPr0bYNUxMQpfm>"
+    },
+    {
+        "queries": [
+            "I like scenic views, nature, and hiking",
+            "Show me places with scenic views, nature, and hiking",
+            "Where can I go for scenic views, nature, and hiking?",
+            "I want to visit a place with scenic views, nature, and hiking",
+            "Scenic views, nature, and hiking spots",
+            "Scenic views, nature, and hiking locations"
+        ],
+        "response": "<Q8I19ZBs7orxMt4GqUDd>"
+    },
+    {
+        "queries": [
+            "I like fishing, diving, and sea turtles",
+            "Show me places for fishing, diving, and sea turtles",
+            "Where can I fish, dive, and see sea turtles?",
+            "I want to visit a place for fishing, diving, and sea turtles",
+            "Fishing, diving, and sea turtle spots",
+            "Fishing, diving, and sea turtle locations"
+        ],
+        "response": "<Qop4bViI5s45IBL4TUjC>"
+    },
+    {
+        "queries": [
+            "I like hiking, Buddhist, and Islamic sites",
+            "Show me places with hiking, Buddhist, and Islamic sites",
+            "Where can I hike, visit Buddhist, and Islamic sites?",
+            "I want to visit a place with hiking, Buddhist, and Islamic sites",
+            "Hiking, Buddhist, and Islamic spots",
+            "Hiking, Buddhist, and Islamic locations"
+        ],
+        "response": "<RFnJbWFof2OyNV3BUYk8>"
+    },
+    {
+        "queries": [
+            "I like beaches, sunset views, and swimming",
+            "Show me places with beaches, sunset views, and swimming",
+            "Where can I find beaches, sunset views, and go swimming?",
+            "I want to visit a place with beaches, sunset views, and swimming",
+            "Beaches, sunset views, and swimming spots",
+            "Beaches, sunset views, and swimming locations"
+        ],
+        "response": "<ThBwEQ44xjYTEIjqEqYm>"
+    },
+    {
+        "queries": [
+            "I like rafting, hiking, and visiting waterfalls",
+            "Show me places for rafting, hiking, and visiting waterfalls",
+            "Where can I go rafting, hiking, and see waterfalls?",
+            "I want to visit a place for rafting, hiking, and waterfalls",
+            "Rafting, hiking, and waterfall spots",
+            "Rafting, hiking, and waterfall locations"
+        ],
+        "response": "<UmmObbS5Da5htb0ydxCS>"
+    },
+    {
+        "queries": [
+            "I like nature, sea views, and whale-watching",
+            "Show me places with nature, sea views, and whale-watching",
+            "Where can I see nature, sea views, and go whale-watching?",
+            "I want to visit a place with nature, sea views, and whale-watching",
+            "Nature, sea views, and whale-watching spots",
+            "Nature, sea views, and whale-watching locations"
+        ],
+        "response": "<X5ojfkoR6HbYabwZyxya>"
+    },
+    {
+        "queries": [
+            "I like urban areas, Buddhist sites, and educational places",
+            "Show me places that are urban, Buddhist, and educational",
+            "Where can I visit urban, Buddhist, and educational places?",
+            "I want to visit an urban, Buddhist, and educational place",
+            "Urban, Buddhist, and educational spots",
+            "Urban, Buddhist, and educational locations"
+        ],
+        "response": "<Y4RkNe3XZ08CT04h3EnD>"
+    },
+    {
+        "queries": [
+            "I like nature, scenic views, and mountains",
+            "Show me places with nature, scenic views, and mountains",
+            "Where can I see nature, scenic views, and mountains?",
+            "I want to visit a place with nature, scenic views, and mountains",
+            "Nature, scenic views, and mountain spots",
+            "Nature, scenic views, and mountain locations"
+        ],
+        "response": "<Y6jyfnYbgBPl8fMAiMwM>"
+    },
+    {
+        "queries": [
+            "I like nature, hiking, and camping",
+            "Show me places with nature, hiking, and camping",
+            "Where can I go for nature, hiking, and camping?",
+            "I want to visit a place with nature, hiking, and camping",
+            "Nature, hiking, and camping spots",
+            "Nature, hiking, and camping locations"
+        ],
+        "response": "<c2LQvcN0Aa3zkd1Zqw4I>"
+    },
+    {
+        "queries": [
+            "I like urban areas, ruins, and scenic views",
+            "Show me places that are urban, have ruins, and scenic views",
+            "Where can I visit urban areas with ruins and scenic views?",
+            "I want to visit an urban area with ruins and scenic views",
+            "Urban, ruins, and scenic spots",
+            "Urban, ruins, and scenic locations"
+        ],
+        "response": "<cIle4It63Svqwu2eeHG2>"
+    },
+    {
+        "queries": [
+            "I like historical, religious, and Buddhist places",
+            "Show me places that are historical, religious, and Buddhist",
+            "Where can I visit historical, religious, and Buddhist places?",
+            "I want to visit a historical, religious, and Buddhist place",
+            "Historical, religious, and Buddhist spots",
+            "Historical, religious, and Buddhist locations"
+        ],
+        "response": "<cUd7ZThLR61KyzvL2dJq>"
+    },
+    {
+        "queries": [
+            "I like scenic views, nature, and hiking",
+            "Show me places with scenic views, nature, and hiking",
+            "Where can I go for scenic views, nature, and hiking?",
+            "I want to visit a place with scenic views, nature, and hiking",
+            "Scenic views, nature, and hiking spots",
+            "Scenic views, nature, and hiking locations"
+        ],
+        "response": "<dS9jN701iUYTIuxjddNw>"
+    },
+    {
+        "queries": [
+            "I like rural, hiking, and scenic places",
+            "Show me rural, hiking, and scenic places",
+            "Where can I visit rural, hiking, and scenic places?",
+            "I want to visit a rural, hiking, and scenic place",
+            "Rural, hiking, and scenic spots",
+            "Rural, hiking, and scenic locations"
+        ],
+        "response": "<dkMcSoEiLJRdycMXBOYd>"
+    },
+    {
+        "queries": [
+            "I like natural, Nuwara, and hiking places",
+            "Show me natural, Nuwara, and hiking places",
+            "Where can I visit natural, Nuwara, and hiking places?",
+            "I want to visit a natural, Nuwara, and hiking place",
+            "Natural, Nuwara, and hiking spots",
+            "Natural, Nuwara, and hiking locations"
+        ],
+        "response": "<hP8zpHMAJulZLeGc26Z3>"
+    },
+    {
+        "queries": [
+            "I like scenic views, waterfalls, and rural places",
+            "Show me places with scenic views, waterfalls, and rural areas",
+            "Where can I see scenic views, waterfalls, and rural areas?",
+            "I want to visit a place with scenic views, waterfalls, and rural areas",
+            "Scenic views, waterfalls, and rural spots",
+            "Scenic views, waterfalls, and rural locations"
+        ],
+        "response": "<jElCw9woGkQRGc1xeTOZ>"
+    },
+    {
+        "queries": [
+            "I like urban areas, boatriding, and scenic views",
+            "Show me places that are urban, have boatriding, and scenic views",
+            "Where can I visit urban areas with boatriding and scenic views?",
+            "I want to visit an urban area with boatriding and scenic views",
+            "Urban, boatriding, and scenic spots",
+            "Urban, boatriding, and scenic locations"
+        ],
+        "response": "<oSVJEHID0zRrVtA5WwGM>"
+    },
+    {
+        "queries": [
+            "I like fishing, diving, and sea turtles",
+            "Show me places for fishing, diving, and sea turtles",
+            "Where can I fish, dive, and see sea turtles?",
+            "I want to visit a place for fishing, diving, and sea turtles",
+            "Fishing, diving, and sea turtle spots",
+            "Fishing, diving, and sea turtle locations"
+        ],
+        "response": "<qOOPieyiUV6eC0Lq67ky>"
+    },
+    {
+        "queries": [
+            "I like hiking, Buddhist, and Islamic sites",
+            "Show me places with hiking, Buddhist, and Islamic sites",
+            "Where can I hike, visit Buddhist, and Islamic sites?",
+            "I want to visit a place with hiking, Buddhist, and Islamic sites",
+            "Hiking, Buddhist, and Islamic spots",
+            "Hiking, Buddhist, and Islamic locations"
+        ],
+        "response": "<v9tNL4vcRRMoM8MSssFr>"
+    },
+    {
+        "queries": [
+            "I like fishing, diving, and sea turtles",
+            "Show me places for fishing, diving, and sea turtles",
+            "Where can I fish, dive, and see sea turtles?",
+            "I want to visit a place for fishing, diving, and sea turtles",
+            "Fishing, diving, and sea turtle spots",
+            "Fishing, diving, and sea turtle locations"
+        ],
+        "response": "<vaTvRfTv9JFBnXErxPzc>"
     }
-    
-    
-
-
 ]

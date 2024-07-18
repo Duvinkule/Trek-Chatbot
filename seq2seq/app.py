@@ -93,6 +93,17 @@ def check_destination_ids(tags):
                 des_tags.append(doc.id)
     return des_tags
 
+def get_all_ids(tags):
+    ids = []
+    destinations_ref = db.collection('destinations')
+    docs = destinations_ref.stream()
+    for doc in docs:
+        doc_tags = doc.get('tags') or []
+        if any(tag.lower() in [t.lower() for t in doc_tags] for tag in tags):
+            ids.append(doc.id)
+
+    return ids  
+
 @app.route('/chatbot', methods=['POST'])
 def chatbot():
     data = request.get_json()
@@ -106,13 +117,27 @@ def chatbot():
 
     # Extract coordinates from the response text
     coordinates = extract_coordinates(cleaned_response_text)
-
+    
+    print("Response Text:", repr(response_text))
+    tags_2 = re.findall(r'<\s*tags\s*:\s*(.+?)\s*>', response_text)
+    #print(tags_2)
+    tags_2 = [tag.strip() for tag in tags_2]
+    
     response = {
         'response': cleaned_response_text,
         'tags': check_destination_ids(tags),
         'coordinates': coordinates  # Include coordinates in the response
     }
+
+    if tags_2:
+        print(get_all_ids(tags_2))
+        response['tags'] = get_all_ids(tags_2)
+
     return jsonify(response)
+
+
+
+    #return jsonify(response)
 
 if __name__ == '__main__':
     print_destination_ids()
